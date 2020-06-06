@@ -1,0 +1,19 @@
+\documentclass{book}
+
+\usepackage{graphicx}
+\usepackage{subfiles}
+
+\newcommand*{\swd}[1]{
+    \graphicspath{{#1/images/}}
+}
+
+\setcounter{chapter}{-1}
+
+\begin{document}
+
+\subfile{chapter_0/what_is_lorem_ipsum}
+\subfile{chapter_1/where_does_it_come_from}
+\subfile{chapter_2/why_do_we_use_it}
+\subfile{chapter_2/section_2/why_do_we_use_it}
+
+\end{document}
